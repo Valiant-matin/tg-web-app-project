@@ -46,3 +46,8 @@ button:hover {
     color: rgb(255, 255, 255);
     border: 1px solid white;
 }
+
+.btn {
+    background: var(--tg-theme-bg-color);
+    color: var(--tg-theme-text-color);
+}

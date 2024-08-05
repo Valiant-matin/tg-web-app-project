@@ -3,6 +3,7 @@ const { message } = require('telegraf/filters');
 require('dotenv').config();
 
 const bot = new Telegraf(process.env.TOKEN);
+const webUrl = 'https://meek-maamoul-b56d5b.netlify.app';
 
 bot.start((ctx) => {
     ctx.reply('Выберите действие',
