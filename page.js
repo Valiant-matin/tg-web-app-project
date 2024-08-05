@@ -1,4 +1,4 @@
-$(document).ready(function () {
+document.addEventListener("load", (e) => {
     console.log("Страница загрузилась!");
 
 
