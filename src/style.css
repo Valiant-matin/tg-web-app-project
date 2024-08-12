@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #373737;
+}
+
+button {
+    background: lightseagreen;
+    padding: 10px 20px;
+    color: black;
+}
