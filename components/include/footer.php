@@ -11,7 +11,9 @@
 <script src="./index.js"></script>
 <script>
     $(document).ready(function() {
+        $("#content").load(location.origin + '/components/include/header.php');
         $('#content').load(location.origin + '/pages/index.php');
+        $("#content").load(location.origin + '/components/include/footer.php');
         $('a[data-page]').click(function(e) {
             e.preventDefault(); // Предотвращаем стандартное поведение ссылки
             var page = $(this).data('page');
