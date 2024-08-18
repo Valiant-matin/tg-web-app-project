@@ -2,14 +2,21 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family:monospace;
 }
 
 body {
-    background: #373737;
+    background: #e9ccd2;
 }
 
 button {
-    background: lightseagreen;
+    background: var(--tg-theme-bg-color);
     padding: 10px 20px;
-    color: black;
+    color: var(--tg-theme-text-color);
+    border: none;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
 }
